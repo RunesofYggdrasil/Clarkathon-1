@@ -25,6 +25,37 @@ header {
   border-bottom: 2px solid #ffffff;
 }
 
+.header-content {
+  background-image: url("../img/photov.jpg");
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+  margin-top: 20px;
+}
+
+.header-content * {
+  position: relative;
+}
+
+.header-content h1 {
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+.header-content p {
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-size: 1.2em;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
