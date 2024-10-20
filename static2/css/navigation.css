@@ -1,0 +1,67 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #9acd32;
+  padding: 8px 16px;
+  border-radius: 4px;
+  top: 20px;
+  right: 20px;
+  font-weight: 600;
+}
+
+header {
+  background-color: #9acd32;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ffffff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #9acd32;
+  font-weight: bold;
+}
+
+.auth-links {
+  display: flex;
+  align-items: center;
+}
+
+.auth-button {
+  background-color: white;
+  color: #9acd32;
+  padding: 8px 15px;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 0.9em;
+}
