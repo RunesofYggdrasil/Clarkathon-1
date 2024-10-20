@@ -1,0 +1,39 @@
+main {
+  max-width: 800px;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  color: #4caf50;
+  margin-bottom: 1em;
+}
+p {
+  margin-bottom: 0.5em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 2px;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  background-color: #9acd32;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
