@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link href="./css/navigation.css" rel="stylesheet" type="text/css" />
+    <link href="./css/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="data.html">Data</a></li>
+          <li><a href="sign-up.html">Get Involved</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="auth-links">
+          <a href="sign-up.html" class="auth-button">SIGN UP</a>
+          <a href="login.html" class="auth-button">LOGIN</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="main-content">
+        <form action="/sign-up" method="post">
+          <p>Which of these best describes you?</p>
+          <div>
+            <input
+              type="radio"
+              id="restaurant"
+              name="user_type"
+              value="restaurant"
+              required
+            />
+            <label for="restaurant">Restaurant/Cafe</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              id="volunteer"
+              name="user_type"
+              value="volunteer"
+            />
+            <label for="volunteer">Individual Volunteer</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              id="organization"
+              name="user_type"
+              value="organization"
+            />
+            <label for="organization">Volunteering Service/Organization</label>
+          </div>
+
+          <div id="commonFields">
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" required /><br />
+
+            <label for="password">Password:</label><br />
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+            /><br />
+
+            <label for="address">Address:</label><br />
+            <input type="text" id="address" name="address" required /><br />
+
+            <label for="city">City:</label><br />
+            <input type="text" id="city" name="city" required /><br />
+
+            <label for="state">State:</label><br />
+            <input type="text" id="state" name="state" required /><br />
+
+            <label for="postal">Postal Code:</label><br />
+            <input type="text" id="postal" name="postal" required /><br />
+          </div>
+
+          <div id="restaurantFields" style="display: none">
+            <label for="restaurant_name">Restaurant/Cafe Name:</label><br />
+            <input
+              type="text"
+              id="restaurant_name"
+              name="restaurant_name"
+            /><br />
+          </div>
+
+          <div id="volunteerFields" style="display: none">
+            <label for="first_name">First Name:</label><br />
+            <input type="text" id="first_name" name="first_name" /><br />
+            <label for="last_name">Last Name:</label><br />
+            <input type="text" id="last_name" name="last_name" /><br />
+          </div>
+
+          <div id="organizationFields" style="display: none">
+            <label for="organization_name">Organization Name:</label><br />
+            <input
+              type="text"
+              id="organization_name"
+              name="organization_name"
+            /><br />
+          </div>
+
+          <button type="submit" class="submit-button">Sign Up</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

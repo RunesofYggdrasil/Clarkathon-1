@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login Page</title>
-    <link href="./css/login.css" rel="stylesheet" type="text/css" />
+    <title>Login</title>
+    <link href="./css/navigation.css" rel="stylesheet" type="text/css" />
+    <link href="./css/styles.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header>
@@ -12,24 +13,27 @@
         <ul>
           <li><a href="home.html">Home</a></li>
           <li><a href="data.html">Data</a></li>
-          <li><a href="sign-up-and-other-detz.html">Get Involved</a></li>
+          <li><a href="sign-up.html">Get Involved</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
+        <div class="auth-links">
+          <a href="sign-up.html" class="auth-button">SIGN UP</a>
+          <a href="login.html" class="auth-button">LOGIN</a>
+        </div>
       </nav>
-      <a href="sign-up-and-other-detz.html">SIGN UP</a>
-      <a href="login.html" class="login-btn">LOGIN</a>
-      <h1>Log in</h1>
     </header>
-    <div class="content">
-      <form>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
+    <main>
+      <div class="content">
+        <form>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
 
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required />
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
 
-        <input type="submit" value="Login" />
-      </form>
-    </div>
+          <input type="submit" class="submit-button" value="Login" />
+        </form>
+      </div>
+    </main>
   </body>
 </html>

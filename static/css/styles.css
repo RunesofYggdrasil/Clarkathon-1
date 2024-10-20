@@ -78,3 +78,42 @@ th {
 .about-text h2 {
   margin-top: 0;
 }
+
+#commonFields {
+  margin-top: 20px;
+}
+
+.alert {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.alert h1 {
+  margin: 0;
+  color: #9acd32;
+}
+
+.confirm-pickup {
+  background-color: #9acd32;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #9acd32;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
